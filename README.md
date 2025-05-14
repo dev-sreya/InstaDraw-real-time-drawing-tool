@@ -1,110 +1,79 @@
 # Real-Time Collaborative Drawing Tool
 
-🎨 Drawing & Canvas Features
+🎨 ## Drawing & Canvas Features
 - Freehand Drawing
 
--- Smooth pen or pencil tool
+    - Smooth pen or pencil tool
 
--- Eraser support
+    - Eraser support
 
 - Shapes and Objects
 
--- Predefined shapes: rectangles, circles, lines, arrows
+    - Predefined shapes: rectangles, circles, lines, arrows
 
--- Text boxes
+    - Text boxes
 
--- Sticky notes
+    - Sticky notes
 
 - Color & Styling
 
-- Fill and stroke color pickers
+    - Fill and stroke color pickers
 
-- Line thickness, dashed/solid styles
+    - Line thickness, dashed/solid styles
 
-Background color
+    -Background color
 
-Layers & Object Grouping
+-Layers & Object Grouping
 
-Bring forward / send backward
+    -Bring forward / send backward
 
-Group multiple elements together
+    -Group multiple elements together
 
-Drag, Resize, Rotate
+-Drag, Resize, Rotate
 
-All drawn elements are editable after creation
+    -All drawn elements are editable after creation
 
-Undo / Redo
+-Undo / Redo
 
-For all drawing actions
+    -For all drawing actions
 
-👥 Real-Time Collaboration Features
-Live Multi-User Drawing
+👥 ## Real-Time Collaboration Features
+-Live Multi-User Drawing
 
-See others’ cursors and drawings as they happen
+    -See others’ cursors and drawings as they happen
 
-User Presence Indicator
+- User Presence Indicator
 
-Who is online / editing
+    -Who is online / editing
 
-Cursor Preview
+-Cursor Preview
 
-Colored cursors with names to see who is drawing what
+    -Colored cursors with names to see who is drawing what
 
-Chat or Commenting
+-Chat or Commenting
 
-Optional side chat panel for real-time communication
+    -Optional side chat panel for real-time communication
 
-🧠 Interaction & Usability
-Multi-touch & Tablet Support
+🧠 ## Interaction & Usability
+-Multi-touch & Tablet Support
 
-Compatible with pen tablets and touch screens
+    -Compatible with pen tablets and touch screens
 
-Zoom & Pan
+☁️ ## Sync & Backend
+-Cloud Sync
 
-Easy navigation of large canvas
+    -Optionally save drawings to user account or shared link
 
-Grid View or Snap to Grid
+-WebSocket-based Real-Time Updates
 
-Helps with alignment and layout
+    -Using Socket.io, ws, or WebRTC for syncing
 
-💾 File Management
-Export Options
+-Room-Based Collaboration
 
-PNG, SVG, PDF, or JSON (to reload later)
+    -Join/leave rooms with unique URLs
 
-Import Drawings
-
-Load from JSON or image to annotate
-
-Auto-save / Manual Save
-
-With browser local storage or cloud
-
-Version History
-
-View and revert to previous versions
-
-☁️ Sync & Backend
-Cloud Sync
-
-Optionally save drawings to user account or shared link
-
-WebSocket-based Real-Time Updates
-
-Using Socket.io, ws, or WebRTC for syncing
-
-Room-Based Collaboration
-
-Join/leave rooms with unique URLs
-
-🔐 Authentication & Access
+🔐 ## Authentication & Access
 Login / Sign up (optional)
-
-With Google, GitHub, etc.
-
-Public vs Private Boards
-
-Control who can view/edit
 
 
 # Turborepo starter
