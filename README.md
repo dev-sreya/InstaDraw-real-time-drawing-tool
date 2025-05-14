@@ -1,4 +1,112 @@
 # Real-Time Collaborative Drawing Tool
+
+🎨 Drawing & Canvas Features
+Freehand Drawing
+
+Smooth pen or pencil tool
+
+Eraser support
+
+Shapes and Objects
+
+Predefined shapes: rectangles, circles, lines, arrows
+
+Text boxes
+
+Sticky notes
+
+Color & Styling
+
+Fill and stroke color pickers
+
+Line thickness, dashed/solid styles
+
+Background color
+
+Layers & Object Grouping
+
+Bring forward / send backward
+
+Group multiple elements together
+
+Drag, Resize, Rotate
+
+All drawn elements are editable after creation
+
+Undo / Redo
+
+For all drawing actions
+
+👥 Real-Time Collaboration Features
+Live Multi-User Drawing
+
+See others’ cursors and drawings as they happen
+
+User Presence Indicator
+
+Who is online / editing
+
+Cursor Preview
+
+Colored cursors with names to see who is drawing what
+
+Chat or Commenting
+
+Optional side chat panel for real-time communication
+
+🧠 Interaction & Usability
+Multi-touch & Tablet Support
+
+Compatible with pen tablets and touch screens
+
+Zoom & Pan
+
+Easy navigation of large canvas
+
+Grid View or Snap to Grid
+
+Helps with alignment and layout
+
+💾 File Management
+Export Options
+
+PNG, SVG, PDF, or JSON (to reload later)
+
+Import Drawings
+
+Load from JSON or image to annotate
+
+Auto-save / Manual Save
+
+With browser local storage or cloud
+
+Version History
+
+View and revert to previous versions
+
+☁️ Sync & Backend
+Cloud Sync
+
+Optionally save drawings to user account or shared link
+
+WebSocket-based Real-Time Updates
+
+Using Socket.io, ws, or WebRTC for syncing
+
+Room-Based Collaboration
+
+Join/leave rooms with unique URLs
+
+🔐 Authentication & Access
+Login / Sign up (optional)
+
+With Google, GitHub, etc.
+
+Public vs Private Boards
+
+Control who can view/edit
+
+
 # Turborepo starter
 
 This Turborepo starter is maintained by the Turborepo core team.
