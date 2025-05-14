@@ -2,7 +2,7 @@
 InstaDraw is an open-source, real-time drawing and whiteboarding app that lets multiple users sketch, annotate, and collaborate simultaneously on a shared canvas.
 
 
-🎨 ## Drawing & Canvas Features
+🎨 Drawing & Canvas Features
 - Freehand Drawing
 
     - Smooth pen or pencil tool
@@ -23,59 +23,59 @@ InstaDraw is an open-source, real-time drawing and whiteboarding app that lets m
 
     - Line thickness, dashed/solid styles
 
-    -Background color
+    - Background color
 
--Layers & Object Grouping
+- Layers & Object Grouping
 
-    -Bring forward / send backward
+    - Bring forward / send backward
 
-    -Group multiple elements together
+    - Group multiple elements together
 
--Drag, Resize, Rotate
+- Drag, Resize, Rotate
 
-    -All drawn elements are editable after creation
+    - All drawn elements are editable after creation
 
--Undo / Redo
+- Undo / Redo
 
-    -For all drawing actions
+    - For all drawing actions
 
-👥 ## Real-Time Collaboration Features
--Live Multi-User Drawing
+👥 Real-Time Collaboration Features
+- Live Multi-User Drawing
 
-    -See others’ cursors and drawings as they happen
+    - See others’ cursors and drawings as they happen
 
 - User Presence Indicator
 
-    -Who is online / editing
+    - Who is online / editing
 
--Cursor Preview
+- Cursor Preview
 
-    -Colored cursors with names to see who is drawing what
+    - Colored cursors with names to see who is drawing what
 
--Chat or Commenting
+- Chat or Commenting
 
-    -Optional side chat panel for real-time communication
+    -O ptional side chat panel for real-time communication
 
-🧠 ## Interaction & Usability
--Multi-touch & Tablet Support
+🧠 Interaction & Usability
+- Multi-touch & Tablet Support
 
-    -Compatible with pen tablets and touch screens
+    - Compatible with pen tablets and touch screens
 
-☁️ ## Sync & Backend
--Cloud Sync
+☁️ Sync & Backend
+- Cloud Sync
 
-    -Optionally save drawings to user account or shared link
+    - Optionally save drawings to user account or shared link
 
--WebSocket-based Real-Time Updates
+- WebSocket-based Real-Time Updates
 
-    -Using Socket.io, ws, or WebRTC for syncing
+    - Using Socket.io, ws, or WebRTC for syncing
 
--Room-Based Collaboration
+- Room-Based Collaboration
 
-    -Join/leave rooms with unique URLs
+    - Join/leave rooms with unique URLs
 
-🔐 ## Authentication & Access
-Login / Sign up (optional)
+🔐 Authentication & Access
+- Login / Sign up (optional)
 
 
 # Turborepo starter
