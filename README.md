@@ -1,25 +1,25 @@
 # Real-Time Collaborative Drawing Tool
 
 🎨 Drawing & Canvas Features
-Freehand Drawing
+- Freehand Drawing
 
-Smooth pen or pencil tool
+-- Smooth pen or pencil tool
 
-Eraser support
+-- Eraser support
 
-Shapes and Objects
+- Shapes and Objects
 
-Predefined shapes: rectangles, circles, lines, arrows
+-- Predefined shapes: rectangles, circles, lines, arrows
 
-Text boxes
+-- Text boxes
 
-Sticky notes
+-- Sticky notes
 
-Color & Styling
+- Color & Styling
 
-Fill and stroke color pickers
+- Fill and stroke color pickers
 
-Line thickness, dashed/solid styles
+- Line thickness, dashed/solid styles
 
 Background color
 
