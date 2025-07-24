@@ -1,24 +1,28 @@
 import WebSocket, { WebSocketServer } from 'ws';
+import jwt, { JwtHeader, JwtPayload } from 'jsonwebtoken';
+import { JWT_SECRET } from './config';
 
-const port = 8080;
+const port = 8000;
 const wss = new WebSocketServer({ port });
 
 console.log(`WebSocket server is running on ws://localhost:${port}`);
 
-wss.on('connection', (ws) => {
+wss.on('connection', function connection(ws,request) {
     console.log('New client connected');
+    const url = request.url;
+    if(!url) {
+        return;
+    }
 
-    ws.on('message', (message) => {
-        console.log(`Received: ${message}`);
-        // Echo the message back to the client
-        ws.send(`Server: ${message}`);
+    const queryParams = new URLSearchParams(url.split('?')[1]);
+    const token = queryParams.get('token') ||"" ;
+    const decoded = jwt.verify(token, JWT_SECRET);
+    if (!decoded || !(decoded as JwtPayload).userid) {
+        ws.close();
+        return;
+    }
+    ws.on('message', function message(data) {
+        ws.send("pong");
     });
-
-    ws.on('close', () => {
-        console.log('Client disconnected');
-    });
-
-    ws.on('error', (error) => {
-        console.error(`WebSocket error: ${error}`);
-    });
+   
 });
